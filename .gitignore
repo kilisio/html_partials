@@ -14,10 +14,8 @@ pids
 
 # Dependency directories
 node_modules/
-src/views/*.html
-src/functions/*.html
-src/functions/*.css
-src/views/*.css
+src/components/*.html
+src/components/*.css
 
 # TypeScript v1 declaration files
 typings/
