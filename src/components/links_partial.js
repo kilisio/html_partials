@@ -4,6 +4,21 @@
 
 
 
+// plugin_partial
+export var links_partial = function(...args){
+    var href = args[0];
+    var alt_text = args[1];
+    return{
+        a: {
+            _attrs:{
+                href: href
+            },
+        _:[
+            alt_text
+        ]
+        }
+    };
+};
 
 
 
