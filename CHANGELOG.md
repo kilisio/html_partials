@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.3"></a>
+## [0.2.3](https://github.com/kilisio/html_partials_lib/compare/v0.2.2...v0.2.3) (2019-04-26)
+
+
+### Bug Fixes
+
+* **links_partial.js:** fixed how function is exported ([21f4030](https://github.com/kilisio/html_partials_lib/commit/21f4030))
+* **lists_partial.js:** fixed how function is exported ([d9ce02b](https://github.com/kilisio/html_partials_lib/commit/d9ce02b))
+
+
+
 <a name="0.2.2"></a>
 ## [0.2.2](https://github.com/kilisio/html_partials_lib/compare/v0.2.1...v0.2.2) (2019-04-26)
 
