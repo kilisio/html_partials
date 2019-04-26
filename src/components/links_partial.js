@@ -8,10 +8,12 @@
 export var links_partial = function(...args){
     var href = args[0];
     var alt_text = args[1];
+    var id = args[2];
     return{
         a: {
             _attrs:{
-                href: href
+                href: href,
+                id: id
             },
         _:[
             alt_text
@@ -24,7 +26,7 @@ export var links_partial = function(...args){
 
 // // links_partial_view html object
 // export var links_partial_view_html = {
-//     div: links_partial('file:///home/kilisio/google_drive/documentation/src/assets/online_portfolio/site_map.svg','site map image')
+//     div: links_partial('file:///home/kilisio/google_drive/documentation/src/assets/online_portfolio/site_map.svg','site map image','active')
 // };
 //
 // // links_partial_view component
@@ -46,6 +48,9 @@ export var links_partial = function(...args){
 //             '.links_partial_view': {
 //                 margin: 0,
 //                 padding: 0
+//             },
+//             'a#active':{
+//                 color: 'green'
 //             }
 //         },
 //         html:{
@@ -54,7 +59,7 @@ export var links_partial = function(...args){
 //             ]
 //
 //         }
-//         
+//
 //     };
 // };
 //
