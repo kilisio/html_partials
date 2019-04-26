@@ -5,7 +5,7 @@
 
 
 // plugin_partial
-export function links_partial(...args){
+export function links(...args){
     var href = args[0];
     var alt_text = args[1];
     var id = args[2];

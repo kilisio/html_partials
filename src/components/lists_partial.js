@@ -4,7 +4,7 @@
 
 
 // plugin_partial
-export function lists_partial(...args){
+export function lists(...args){
     var list = {
         ul: []
     };
