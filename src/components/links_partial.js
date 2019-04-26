@@ -20,7 +20,7 @@ export function links_partial(...args){
         ]
         }
     };
-};
+}
 
 
 
