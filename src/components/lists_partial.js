@@ -4,7 +4,7 @@
 
 
 // plugin_partial
-export var lists_partial = function(...args){
+export function lists_partial(...args){
     var list = {
         ul: []
     };
@@ -12,7 +12,7 @@ export var lists_partial = function(...args){
         list.ul.push({ li: args[i] });
     }
     return list;
-};
+}
 
 
 
