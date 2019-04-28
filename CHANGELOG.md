@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/kilisio/html_partials_lib/compare/v0.2.4...v0.3.0) (2019-04-28)
+
+
+### Features
+
+* image html partial function ([22e1188](https://github.com/kilisio/html_partials_lib/commit/22e1188))
+
+
+
 <a name="0.2.4"></a>
 ## [0.2.4](https://github.com/kilisio/html_partials_lib/compare/v0.2.3...v0.2.4) (2019-04-26)
 
