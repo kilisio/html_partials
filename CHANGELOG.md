@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/kilisio/html_partials_lib/compare/v0.3.1...v0.4.0) (2019-04-30)
+
+
+### Bug Fixes
+
+* **lib.js:** exported static table functions ([13a9ede](https://github.com/kilisio/html_partials_lib/commit/13a9ede))
+
+
+### Features
+
+* static_table, static_row and static_cell html table partials ([f9d789c](https://github.com/kilisio/html_partials_lib/commit/f9d789c))
+
+
+
 <a name="0.3.1"></a>
 ## [0.3.1](https://github.com/kilisio/html_partials_lib/compare/v0.3.0...v0.3.1) (2019-04-28)
 
