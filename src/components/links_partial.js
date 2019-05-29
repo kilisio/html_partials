@@ -7,9 +7,9 @@
 // plugin_partial
 export function links(...args){
     var href = args[0];
-    var alt_text = args[1];
-    var id = args[2];
-    var this_class = args[3];
+    var alt_text = args[1] || '';
+    var id = args[2] || '';
+    var this_class = args[3] || '';
     return{
         a: {
             _attrs:{
