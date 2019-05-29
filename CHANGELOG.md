@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.1"></a>
+## [0.5.1](https://github.com/kilisio/html_partials_lib/compare/v0.5.0...v0.5.1) (2019-05-29)
+
+
+### Bug Fixes
+
+* **image_partial.js:** enabled using null for undefined tag attributes ([861b13e](https://github.com/kilisio/html_partials_lib/commit/861b13e))
+* **lib.js:** exported span html partial function ([70f80b4](https://github.com/kilisio/html_partials_lib/commit/70f80b4))
+* **links_partial.js:** enabled using null for undefined tag attributes ([ea1e346](https://github.com/kilisio/html_partials_lib/commit/ea1e346))
+* **span_partial.js:** enabled using null for undefined tag attributes ([e5af4b7](https://github.com/kilisio/html_partials_lib/commit/e5af4b7))
+
+
+
 <a name="0.5.0"></a>
 # [0.5.0](https://github.com/kilisio/html_partials_lib/compare/v0.4.1...v0.5.0) (2019-05-29)
 
