@@ -9,15 +9,17 @@ export function links(...args){
     var href = args[0];
     var alt_text = args[1];
     var id = args[2];
+    var this_class = args[3];
     return{
         a: {
             _attrs:{
                 href: href,
-                id: id
+                id: id,
+                class: this_class
             },
-        _:[
-            alt_text
-        ]
+            _:[
+                alt_text
+            ]
         }
     };
 }
