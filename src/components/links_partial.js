@@ -9,15 +9,17 @@ export function links(...args){
     var href = args[0];
     var alt_text = args[1];
     var id = args[2];
+    var this_class = args[3];
     return{
         a: {
             _attrs:{
                 href: href,
-                id: id
+                id: id,
+                class: this_class
             },
-        _:[
-            alt_text
-        ]
+            _:[
+                alt_text
+            ]
         }
     };
 }
@@ -26,7 +28,7 @@ export function links(...args){
 
 // // links_partial_view html object
 // export var links_partial_view_html = {
-//     div: links_partial('file:///home/kilisio/google_drive/documentation/src/assets/online_portfolio/site_map.svg','site map image','active')
+//     div: links('file:///home/kilisio/google_drive/documentation/src/assets/online_portfolio/site_map.svg','site map image','active', 'testing')
 // };
 //
 // // links_partial_view component
