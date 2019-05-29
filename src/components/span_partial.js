@@ -27,7 +27,7 @@ export function span(...args){
 // // span_partial html object
 // export var span_partial_html = {
 //     _include:[
-//         span('testing', 'blah', 'blah_blah')
+//         span('testing', null, null)
 //     ]
 // };
 //
@@ -63,10 +63,10 @@ export function span(...args){
 //             ]
 //
 //         }
-//         
+//
 //     };
 // }
-//     
+//
 //
 // export var span_partial_nested_layout = function(){
 // 	return span_partial();
