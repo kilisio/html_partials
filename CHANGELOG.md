@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.4.1"></a>
+## [0.4.1](https://github.com/kilisio/html_partials_lib/compare/v0.4.0...v0.4.1) (2019-05-29)
+
+
+### Bug Fixes
+
+* **links_partial.js:** added class attribute to links function ([6c8802e](https://github.com/kilisio/html_partials_lib/commit/6c8802e))
+
+
+
 <a name="0.4.0"></a>
 # [0.4.0](https://github.com/kilisio/html_partials_lib/compare/v0.3.1...v0.4.0) (2019-04-30)
 
