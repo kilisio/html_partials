@@ -7,8 +7,8 @@
 // span partial plugin
 export function span(...args){
     var obj = args[0];
-    var id = args[1];
-    var this_class = args[2];
+    var id = args[1] || '';
+    var this_class = args[2] || '';
     return{
         span: {
             _attrs:{
@@ -27,7 +27,7 @@ export function span(...args){
 // // span_partial html object
 // export var span_partial_html = {
 //     _include:[
-//         span('testing', 'blah', 'blah_blah')
+//         span('testing', null, null)
 //     ]
 // };
 //
@@ -63,10 +63,10 @@ export function span(...args){
 //             ]
 //
 //         }
-//         
+//
 //     };
 // }
-//     
+//
 //
 // export var span_partial_nested_layout = function(){
 // 	return span_partial();
