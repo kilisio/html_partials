@@ -28,7 +28,7 @@ export function links(...args){
 
 // // links_partial_view html object
 // export var links_partial_view_html = {
-//     div: links_partial('file:///home/kilisio/google_drive/documentation/src/assets/online_portfolio/site_map.svg','site map image','active')
+//     div: links('file:///home/kilisio/google_drive/documentation/src/assets/online_portfolio/site_map.svg','site map image','active', 'testing')
 // };
 //
 // // links_partial_view component
