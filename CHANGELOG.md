@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.4"></a>
+## [0.5.4](https://github.com/kilisio/html_partials_lib/compare/v0.5.3...v0.5.4) (2019-06-18)
+
+
+### Bug Fixes
+
+* **image_partial.js:** added quotes around attribute values ([c30a346](https://github.com/kilisio/html_partials_lib/commit/c30a346))
+* **span_parital.js:** added quotes around attribute values ([670e049](https://github.com/kilisio/html_partials_lib/commit/670e049))
+
+
+
 <a name="0.5.3"></a>
 ## [0.5.3](https://github.com/kilisio/html_partials_lib/compare/v0.5.2...v0.5.3) (2019-06-18)
 
