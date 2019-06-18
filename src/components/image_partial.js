@@ -5,10 +5,10 @@
 // image partial function
 export function image(...args){
     var src = args[0];
-    var alt_text = args[1] || '""';
-    var id = args[2] || '""';
-    var group = args[3] || '""';
-    return  '<img src=' + src + ' alt=' + alt_text + ' id=' + id + ' class=' + group + ' />';
+    var alt_text = args[1] || '';
+    var id = args[2] || '';
+    var group = args[3] || '';
+    return  '<img src="' + src + '" alt="' + alt_text + '" id="' + id + '" class="' + group + '" />';
 }
 
 
