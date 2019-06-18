@@ -1,6 +1,6 @@
 {
   "name": "html_partials_lib",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "main": "lib/lib.js",
   "description": "common html tag functions",
   "files": [
@@ -33,10 +33,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run build && npm run release && npm publish",
+    "build": "npm run build_js && npm run release && npm publish",
     "commit": "git-cz",
     "release": "standard-version",
-    "build": "rollup -c"
+    "build_js": "rollup -c"
   },
   "license": "MIT",
   "husky": {},
