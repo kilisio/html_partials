@@ -8,7 +8,7 @@
     "npm": ">=6.9.0 <7.0.0 "
   },
   "files": [
-    "/lib/lib.js"
+    "/lib"
   ],
   "directories": {
     "doc": "doc",
