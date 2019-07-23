@@ -1,5 +1,5 @@
 {
-  "name": "html_partials_lib",
+  "name": "html_partials",
   "version": "0.5.4",
   "main": "lib/lib.js",
   "description": "common html tag functions",
@@ -42,12 +42,12 @@
   "husky": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kilisio/html_partials_lib.git"
+    "url": "git+https://github.com/kilisio/html_partials.git"
   },
   "bugs": {
-    "url": "https://github.com/kilisio/html_partials_lib/issues"
+    "url": "https://github.com/kilisio/html_partials/issues"
   },
-  "homepage": "https://github.com/kilisio/html_partials_lib#readme",
+  "homepage": "https://github.com/kilisio/html_partials#readme",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
