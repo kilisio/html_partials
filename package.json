@@ -40,10 +40,13 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build_js && npm run release && npm publish",
+    "start": "node ./src/server/server.js",
+    "build": "",
+    "rls": "npm run release && npm publish",
     "commit": "git-cz",
     "release": "standard-version",
-    "build_js": "rollup -c"
+    "build_js": "rollup -c",
+    "dist_web": "openode deploy"
   },
   "license": "MIT",
   "husky": {},
