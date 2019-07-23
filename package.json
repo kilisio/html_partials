@@ -3,6 +3,10 @@
   "version": "0.5.4",
   "main": "src/server/server.js",
   "description": "common html tag functions",
+  "engines": {
+    "node": ">=11.0.0 <13.0.0",
+    "npm": ">=6.9.0 <7.0.0 "
+  },
   "files": [
     "/lib/lib.js"
   ],
