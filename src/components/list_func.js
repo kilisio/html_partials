@@ -18,7 +18,7 @@
 
 
 // FUNCTIONS
-export function list(attrs, ...args){
+export function ul_list(attrs, ...args){
     let list = {
         ul: {
             _attrs:{...attrs},
