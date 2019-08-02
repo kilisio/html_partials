@@ -1,6 +1,6 @@
 {
   "name": "html_partials",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "main": "src/server/server.js",
   "description": "common html tag functions",
   "engines": {
@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "absurd": "0.3.9",
+    "absurd-0.3.158": "npm:absurd@^0.3.158",
     "esm": "^3.1.4",
     "express": "^4.17.1",
     "helmet": "^3.19.0"
