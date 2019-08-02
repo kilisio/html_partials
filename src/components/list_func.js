@@ -18,9 +18,19 @@
 
 
 // FUNCTIONS
+export function list(attrs, ...args){
+    let list = {
+        ul: {
+            _attrs:{...attrs},
+            _include:[]
+        }
     };
-    for(var i=0;i<args.length;i++){
-        list.ul.push({ li: args[i] });
+    for(let i=0;i<args.length;i++){
+        list.ul._include.push(
+            { 
+                li: args[i] 
+            }
+        );
     }
     return list;
 }
