@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.6"></a>
+## [0.5.6](https://github.com/kilisio/html_partials/compare/v0.5.5...v0.5.6) (2019-08-02)
+
+
+### Bug Fixes
+
+* **lib.js:** exported ul_list and ol_list functions from list_func.js ([2ad8854](https://github.com/kilisio/html_partials/commit/2ad8854))
+* **list_func.js:** added ordered list function ([9fa7e19](https://github.com/kilisio/html_partials/commit/9fa7e19))
+* **list_func.js:** changed function name ([13cd5d6](https://github.com/kilisio/html_partials/commit/13cd5d6))
+* **list_func.js:** modified function object properties and parameters ([2c63419](https://github.com/kilisio/html_partials/commit/2c63419))
+
+
+
 <a name="0.5.5"></a>
 ## [0.5.5](https://github.com/kilisio/html_partials/compare/v0.5.4...v0.5.5) (2019-07-23)
 
