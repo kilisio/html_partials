@@ -35,6 +35,24 @@ export function ul_list(attrs, ...args){
     return list;
 }
 
+
+export function ol_list(attrs, ...args){
+    let list = {
+        ol: {
+            _attrs:{...attrs},
+            _include:[]
+        }
+    };
+    for(let i=0;i<args.length;i++){
+        list.ol._include.push(
+            { 
+                li: args[i] 
+            }
+        );
+    }
+    return list;
+}
+
 // // CSS VARIABLES
 //
 //
