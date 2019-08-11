@@ -17,6 +17,19 @@
 
 
 
+// FUNCTIONS
+export function span(attrs, ...args){
+    let span = {
+        span: {
+            _attrs:{...attrs},
+            _include:[]
+        }
+    };
+    for(let i=0;i<args.length;i++){
+        span.span._include.push(args[i]);
+    }
+    return span;
+}
 
 
 // // CSS VARIABLES
