@@ -18,17 +18,14 @@
 
 
 // FUNCTIONS
+export function link(attrs, alt){
+    let link = {
         a: {
-            _attrs:{
-                href: href,
-                id: id,
-                class: this_class
-            },
-            _:[
-                alt_text
-            ]
+            _attrs:{...attrs},
+            _:[alt]
         }
     };
+    return link;
 }
 
 
