@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.6.0"></a>
+# [0.6.0](https://github.com/kilisio/html_partials/compare/v0.5.7...v0.6.0) (2019-08-11)
+
+
+### Bug Fixes
+
+* **lib.js:** exported div html partial function ([7710a9a](https://github.com/kilisio/html_partials/commit/7710a9a))
+
+
+### Features
+
+* div html partial function ([2da0186](https://github.com/kilisio/html_partials/commit/2da0186))
+
+
+
 <a name="0.5.7"></a>
 ## [0.5.7](https://github.com/kilisio/html_partials/compare/v0.5.6...v0.5.7) (2019-08-11)
 
