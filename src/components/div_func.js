@@ -18,6 +18,21 @@
 
 
 // FUNCTIONS
+export function div(attrs, ...args){
+    let div = {
+        div: {
+            _attrs:{...attrs},
+            _include:[]
+        }
+    };
+    for(let i=0;i<args.length;i++){
+        div.div._include.push(args[i]);
+    }
+    return div;
+}
+
+
+
 // // CSS VARIABLES
 //
 //
