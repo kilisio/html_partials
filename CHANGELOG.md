@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.7"></a>
+## [0.5.7](https://github.com/kilisio/html_partials/compare/v0.5.6...v0.5.7) (2019-08-11)
+
+
+### Bug Fixes
+
+* **lib.js:** changed span fuction export file to span_func.js ([f0e1ab2](https://github.com/kilisio/html_partials/commit/f0e1ab2))
+* **span_func.js:** modified span function code ([f4e8bbf](https://github.com/kilisio/html_partials/commit/f4e8bbf))
+
+
+
 <a name="0.5.6"></a>
 ## [0.5.6](https://github.com/kilisio/html_partials/compare/v0.5.5...v0.5.6) (2019-08-02)
 
