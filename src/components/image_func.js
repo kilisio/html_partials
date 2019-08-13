@@ -18,6 +18,15 @@
 
 
 // FUNCTIONS
+export function image(args) {
+  var attr = [];
+  for (let i in args) {
+    if(args.hasOwnProperty(i)){
+        let key_pair = i + ' = "' + args[i] + '" ';
+        attr.push(key_pair);
+    }
+  }
+  return "<img " + attr.join('') + "/>";
 }
 
 
