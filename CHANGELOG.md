@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.6.3"></a>
+## [0.6.3](https://github.com/kilisio/html_partials/compare/v0.6.2...v0.6.3) (2019-08-15)
+
+
+### Bug Fixes
+
+* **lib.js:** correct list_func.js mispell ([5bc073b](https://github.com/kilisio/html_partials/commit/5bc073b))
+
+
+
 <a name="0.6.2"></a>
 ## [0.6.2](https://github.com/kilisio/html_partials/compare/v0.6.1...v0.6.2) (2019-08-13)
 
