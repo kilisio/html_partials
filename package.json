@@ -1,6 +1,6 @@
 {
   "name": "html_partials",
-  "version": "0.6.8",
+  "version": "0.6.9",
   "main": "src/server/server.js",
   "description": "common html tag functions",
   "engines": {
