@@ -1,7 +1,7 @@
 {
   "name": "html_partials",
   "version": "0.6.10",
-  "main": "src/server/server.js",
+  "main": "",
   "description": "common html tag functions",
   "engines": {
     "node": ">=11.0.0 <13.0.0",
