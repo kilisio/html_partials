@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.6.11"></a>
+## [0.6.11](https://github.com/kilisio/html_partials/compare/v0.6.10...v0.6.11) (2019-08-15)
+
+
+
+<a name="0.6.10"></a>
+## [0.6.10](https://github.com/kilisio/html_partials/compare/v0.6.9...v0.6.10) (2019-08-15)
+
+
+
+<a name="0.6.9"></a>
+## [0.6.9](https://github.com/kilisio/html_partials/compare/v0.6.8...v0.6.9) (2019-08-15)
+
+
+
+<a name="0.6.8"></a>
+## [0.6.8](https://github.com/kilisio/html_partials/compare/v0.6.7...v0.6.8) (2019-08-15)
+
+
+
+<a name="0.6.7"></a>
+## [0.6.7](https://github.com/kilisio/html_partials/compare/v0.6.6...v0.6.7) (2019-08-15)
+
+
+
+<a name="0.6.6"></a>
+## [0.6.6](https://github.com/kilisio/html_partials/compare/v0.6.5...v0.6.6) (2019-08-15)
+
+
+
 <a name="0.6.5"></a>
 ## [0.6.5](https://github.com/kilisio/html_partials/compare/v0.6.4...v0.6.5) (2019-08-15)
 
