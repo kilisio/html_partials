@@ -1,7 +1,7 @@
 {
   "name": "html_partials",
-  "version": "0.6.11",
-  "main": "",
+  "version": "0.6.12",
+  "main": "lib/lib.js",
   "description": "common html tag functions",
   "engines": {
     "node": ">=11.0.0 <13.0.0",
