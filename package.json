@@ -1,6 +1,6 @@
 {
   "name": "html_partials",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "main": "src/server/server.js",
   "description": "common html tag functions",
   "engines": {
@@ -8,7 +8,7 @@
     "npm": ">=6.9.0 <7.0.0 "
   },
   "files": [
-    "/lib"
+    "/lib/*"
   ],
   "directories": {
     "doc": "doc",
