@@ -1,6 +1,6 @@
 {
   "name": "html_partials",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "main": "src/server/server.js",
   "description": "common html tag functions",
   "engines": {
@@ -42,8 +42,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/server/server.js",
-    "build": "",
-    "rls": "npm run release && npm publish",
+    "build": "npm run build_js",
+    "rls": "npm run build && npm run release && npm publish",
     "commit": "git-cz",
     "release": "standard-version",
     "build_js": "rollup -c",

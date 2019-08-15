@@ -1,5 +1,5 @@
 
-export { ul_list, ol_list } from './components/lists_func.js';
+export { ul_list, ol_list } from './components/list_func.js';
 export { link } from "./components/link_func.js";
 export { image } from "./components/image_func.js";
 export { static_table, static_row, static_cell } from "./components/static_table_partial.js";
