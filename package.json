@@ -4,7 +4,7 @@
   "main": "lib/lib.js",
   "description": "common html tag functions",
   "engines": {
-    "node": ">=11.0.0 <13.0.0",
+    "node": ">=10.0.0 <13.0.0",
     "npm": ">=6.9.0 <7.0.0 "
   },
   "files": [
