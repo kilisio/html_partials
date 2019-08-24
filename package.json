@@ -1,6 +1,6 @@
 {
   "name": "html_partials",
-  "version": "0.6.12",
+  "version": "0.6.13",
   "main": "lib/lib.js",
   "description": "common html tag functions",
   "engines": {
