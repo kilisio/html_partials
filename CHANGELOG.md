@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.6.14"></a>
+## [0.6.14](https://github.com/kilisio/html_partials/compare/v0.6.13...v0.6.14) (2019-10-06)
+
+
+### Bug Fixes
+
+* **link_func.js:** added args parameter for variable link content ([ff17e1b](https://github.com/kilisio/html_partials/commit/ff17e1b))
+
+
+
 <a name="0.6.13"></a>
 ## [0.6.13](https://github.com/kilisio/html_partials/compare/v0.6.12...v0.6.13) (2019-08-24)
 
