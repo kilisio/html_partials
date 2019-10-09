@@ -1,6 +1,6 @@
 {
   "name": "html_partials",
-  "version": "0.6.14",
+  "version": "0.6.15",
   "main": "lib/lib.js",
   "description": "common html tag functions",
   "engines": {
@@ -26,10 +26,14 @@
     "jshint": "^2.9.7",
     "open": "^6.4.0",
     "prettier": "^1.16.1",
-    "rollup": "^1.10.0",
+    "rollup": "^1.23.1",
     "rollup-plugin-cleanup": "^3.1.1",
     "rollup-plugin-clear": "^2.0.7",
-    "rollup-plugin-copy": "^1.1.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.1.0",
+    "rollup-plugin-generate-package-json": "^3.1.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.2",
     "standard-version": "^4.4.0"
   },
   "dependencies": {
@@ -43,7 +47,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/server/server.js",
     "build": "npm run build_js",
-    "rls": "npm run release && npm publish",
+    "rls": "npm run build && npm run release && npm publish",
     "commit": "git-cz",
     "release": "standard-version",
     "build_js": "rollup -c",

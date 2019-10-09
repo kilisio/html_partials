@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.6.15"></a>
+## [0.6.15](https://github.com/kilisio/html_partials/compare/v0.6.14...v0.6.15) (2019-10-09)
+
+
+### Bug Fixes
+
+* **lib.js:** changed export sources paths ([f4a95d5](https://github.com/kilisio/html_partials/commit/f4a95d5))
+
+
+
 <a name="0.6.14"></a>
 ## [0.6.14](https://github.com/kilisio/html_partials/compare/v0.6.13...v0.6.14) (2019-10-06)
 
