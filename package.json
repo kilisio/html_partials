@@ -43,7 +43,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/server/server.js",
     "build": "npm run build_js",
-    "rls": "npm run release && npm publish",
+    "rls": "npm run build && npm run release && npm publish",
     "commit": "git-cz",
     "release": "standard-version",
     "build_js": "rollup -c",
