@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.6.16"></a>
+## [0.6.16](https://github.com/kilisio/html_partials/compare/v0.6.15...v0.6.16) (2019-10-10)
+
+
+
 <a name="0.6.15"></a>
 ## [0.6.15](https://github.com/kilisio/html_partials/compare/v0.6.14...v0.6.15) (2019-10-09)
 

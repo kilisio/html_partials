@@ -1,6 +1,6 @@
 {
   "name": "html_partials",
-  "version": "0.6.15",
+  "version": "0.6.16",
   "main": "lib/lib.js",
   "description": "common html tag functions",
   "engines": {
@@ -50,8 +50,7 @@
     "rls": "npm run build && npm run release && npm publish",
     "commit": "git-cz",
     "release": "standard-version",
-    "build_js": "rollup -c",
-    "dist_web": "openode deploy"
+    "build_js": "rollup -c js_lib.config.js"
   },
   "license": "MIT",
   "husky": {},
