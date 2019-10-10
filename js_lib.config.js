@@ -4,7 +4,6 @@ import copy from 'rollup-plugin-copy';
 import resolve from 'rollup-plugin-node-resolve';
 import commonJS from 'rollup-plugin-commonjs';
 import { terser } from "rollup-plugin-terser";
-import generatePackageJson from 'rollup-plugin-generate-package-json';
 
 export default {
     input: 'src/lib.js',
@@ -22,15 +21,6 @@ export default {
         }),
         cleanup(),
         terser(),
-        generatePackageJson({
-            baseContents: {
-                "main": "lib/lib.js",
-                "engines": {
-                    "node": ">=10.0.0 <13.0.0",
-                    "npm": ">=6.9.0 <7.0.0 "
-                }
-            }
-        }),
         copy({
             targets: [
                 {
