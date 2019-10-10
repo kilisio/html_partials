@@ -25,6 +25,10 @@ export default {
         generatePackageJson({
             baseContents: {
                 "main": "lib/lib.js",
+                "engines": {
+                    "node": ">=10.0.0 <13.0.0",
+                    "npm": ">=6.9.0 <7.0.0 "
+                }
             }
         }),
         copy({
