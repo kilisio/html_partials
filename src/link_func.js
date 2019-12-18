@@ -20,7 +20,7 @@
 // FUNCTIONS
 export function link(attrs, ...args){
     let link = {
-        a: {
+        'router-link': {
             _attrs:{...attrs},
             _include:[]
         }
