@@ -1,8 +1,8 @@
 "use strict";
 
 // IMPORTS
-//import * as css_plugins from "css_plugins_lib";
-//import * as html_partials from "html_partials_lib";
+// import * as css_plugins from "css_plugins_lib";
+// import * as html_partials from "html_partials_lib";
 
 
 
@@ -26,7 +26,7 @@ export function link(attrs, ...args){
         }
     };
     for(let i=0;i<args.length;i++){
-        link.a._include.push(args[i]);
+        link['router-link']._include.push(args[i]);
     }
     return link;
 }
@@ -167,10 +167,10 @@ export function link(attrs, ...args){
 //             ]
 //
 //         }
-//         
+//
 //     };
 // }
-//     
+//
 //
 // // HTML PAGE LAYOUT
 //
@@ -210,7 +210,7 @@ export function link(attrs, ...args){
 //
 //
 // // ABSURD JS CONSOLE AND FILE TEST CODE
-// var absurd = require("absurd-0.3.158");
+// var absurd = require("absurd");
 //
 //
 // absurd(function(api) {
