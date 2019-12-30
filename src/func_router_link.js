@@ -18,17 +18,17 @@
 
 
 // FUNCTIONS
-export function link(attrs, ...args){
-    let link = {
+export function router_link(attrs, ...args){
+    let router_link = {
         'router-link': {
             _attrs:{...attrs},
             _include:[]
         }
     };
     for(let i=0;i<args.length;i++){
-        link['router-link']._include.push(args[i]);
+        router_link['router-link']._include.push(args[i]);
     }
-    return link;
+    return router_link;
 }
 
 

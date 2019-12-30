@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.7.1"></a>
+## [0.7.1](https://github.com/kilisio/html_partials/compare/v0.7.0...v0.7.1) (2019-12-30)
+
+
+
+<a name="0.7.0"></a>
+# [0.7.0](https://github.com/kilisio/html_partials/compare/v0.6.20...v0.7.0) (2019-12-30)
+
+
+### Bug Fixes
+
+* **lib.js:** exported normal html link ([c2acd3e](https://github.com/kilisio/html_partials/commit/c2acd3e))
+
+
+### Features
+
+* **func_link.js:** seperated normal html link from vue router-link ([8eafff9](https://github.com/kilisio/html_partials/commit/8eafff9))
+
+
+
 <a name="0.6.20"></a>
 ## [0.6.20](https://github.com/kilisio/html_partials/compare/v0.6.19...v0.6.20) (2019-12-18)
 
