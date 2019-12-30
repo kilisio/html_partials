@@ -57,9 +57,10 @@
   },
   "dependencies": {},
   "scripts": {
-    "dist": "rollup -c config/rollup/lib.config.js",
     "commit": "git-cz",
-    "rls": "standard-version"
+    "rls": "standard-version",
+    "dist": "rollup -c config/rollup/config.lib.js",
+    "pub_lib": "cd $INIT_CWD/dist/lib && npm publish"
   },
   "license": "MIT",
   "husky": {},
