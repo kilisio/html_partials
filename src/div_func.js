@@ -19,14 +19,27 @@
 
 // FUNCTIONS
 export function div(attrs, ...args){
+    let attributes; 
+    if(attrs.state === undefined){
+        attributes = '';
+    }else{
+        attributes = attrs.state.join(' ');
+    }
+	for (var t in attrs){
+    	if (attrs.hasOwnProperty(t)){
+            if(t === 'state'){
+                delete attrs[t];
+            }
+    	}
+	}
     let div = {
-        div: {
+        ['div['+ attributes +']']: {
             _attrs:{...attrs},
             _include:[]
         }
     };
     for(let i=0;i<args.length;i++){
-        div.div._include.push(args[i]);
+        div['div['+ attributes +']']._include.push(args[i]);
     }
     return div;
 }
