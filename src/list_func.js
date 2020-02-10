@@ -19,14 +19,27 @@
 
 // FUNCTIONS
 export function ul_list(attrs, ...args){
+    let attributes; 
+    if(attrs.state === undefined){
+        attributes = '';
+    }else{
+        attributes = attrs.state.join(' ');
+    }
+	for (var t in attrs){
+    	if (attrs.hasOwnProperty(t)){
+            if(t === 'state'){
+                delete attrs[t];
+            }
+    	}
+	}
     let list = {
-        ul: {
+        ['ul['+ attributes +']']: {
             _attrs:{...attrs},
             _include:[]
         }
     };
     for(let i=0;i<args.length;i++){
-        list.ul._include.push(
+        list['ul['+ attributes +']']._include.push(
             { 
                 li: args[i] 
             }
@@ -37,14 +50,27 @@ export function ul_list(attrs, ...args){
 
 
 export function ol_list(attrs, ...args){
+    let attributes; 
+    if(attrs.state === undefined){
+        attributes = '';
+    }else{
+        attributes = attrs.state.join(' ');
+    }
+	for (var t in attrs){
+    	if (attrs.hasOwnProperty(t)){
+            if(t === 'state'){
+                delete attrs[t];
+            }
+    	}
+	}
     let list = {
-        ol: {
+        ['ol['+ attributes +']']: {
             _attrs:{...attrs},
             _include:[]
         }
     };
     for(let i=0;i<args.length;i++){
-        list.ol._include.push(
+        list['ol['+ attributes +']']._include.push(
             { 
                 li: args[i] 
             }

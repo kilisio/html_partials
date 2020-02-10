@@ -19,14 +19,27 @@
 
 // FUNCTIONS
 export function span(attrs, ...args){
+    let attributes; 
+    if(attrs.state === undefined){
+        attributes = '';
+    }else{
+        attributes = attrs.state.join(' ');
+    }
+	for (var t in attrs){
+    	if (attrs.hasOwnProperty(t)){
+            if(t === 'state'){
+                delete attrs[t];
+            }
+    	}
+	}
     let span = {
-        span: {
+        ['span[' + attributes +']']: {
             _attrs:{...attrs},
             _include:[]
         }
     };
     for(let i=0;i<args.length;i++){
-        span.span._include.push(args[i]);
+        span['span[' + attributes + ']']._include.push(args[i]);
     }
     return span;
 }

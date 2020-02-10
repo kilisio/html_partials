@@ -19,14 +19,27 @@
 
 // FUNCTIONS
 export function router_link(attrs, ...args){
+    let attributes; 
+    if(attrs.state === undefined){
+        attributes = '';
+    }else{
+        attributes = attrs.state.join(' ');
+    }
+	for (var t in attrs){
+    	if (attrs.hasOwnProperty(t)){
+            if(t === 'state'){
+                delete attrs[t];
+            }
+    	}
+	}
     let router_link = {
-        'router-link': {
+        ['router-link[' + attributes + ']']: {
             _attrs:{...attrs},
             _include:[]
         }
     };
     for(let i=0;i<args.length;i++){
-        router_link['router-link']._include.push(args[i]);
+        router_link['router-link[' + attributes + ']']._include.push(args[i]);
     }
     return router_link;
 }
@@ -58,7 +71,8 @@ export function router_link(attrs, ...args){
 // var link_attrs = {
 //     id: "linked",
 //     "class": "linked",
-//     href: "./assets/icons/icons.md"
+//     href: "./assets/icons/icons.md",
+//     state: ['replace', 'selected']
 // };
 //
 // // HTML OBJECT
@@ -66,7 +80,7 @@ export function router_link(attrs, ...args){
 //     _include:[
 //         inline_style,
 //         inline_script,
-//         link(link_attrs, "a link")
+//         router_link(link_attrs, "a link")
 //     ]
 // };
 //
