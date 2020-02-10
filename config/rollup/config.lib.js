@@ -15,12 +15,12 @@ export default [
     	{
             input: 'src/lib.js',
             output: {
-                file: 'dist/lib/lib.js',
+                file: 'dist/lib.js',
                 format: 'cjs'
             },
             plugins: [
                 clear({
-                    targets: ['dist/lib'],
+                    targets: ['dist'],
                 }),
                 json({
                     include: 'node_modules/**',
@@ -31,7 +31,7 @@ export default [
                 }),
                 cleanup(),
                 generatePackageJson({
-                    outputFolder: '',
+                    outputFolder: 'dist',
                     baseContents: {
                         "name": "@kilisio/" + pkgson.name + "",
                         "version": pkgson.version,

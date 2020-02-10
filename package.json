@@ -1,6 +1,6 @@
 {
   "name": "html_partials",
-  "version": "0.7.1",
+  "version": "0.7.3",
   "description": "common html and vuejs tag functions",
   "engines": {
     "node": ">=10.0.0 <13.0.0",
@@ -24,8 +24,8 @@
     "absurd": "^0.3.9",
     "cheerio": "^1.0.0-rc.3",
     "clean-css": "^4.2.1",
-    "commitizen": "^3.0.5",
-    "cz-conventional-changelog": "^2.1.0",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0",
     "esm": "^3.1.4",
     "express": "^4.17.1",
     "helmet": "^3.18.0",
@@ -53,14 +53,26 @@
     "rollup-plugin-serve": "^1.0.1",
     "rollup-plugin-terser": "^5.1.2",
     "rollup-plugin-visualizer": "^2.7.2",
-    "standard-version": "^4.4.0"
+    "standard-version": "^4.4.0",
+    "@kilisio/preprocess-0.3.10": "npm:@kilisio/preprocess@^0.3.10",
+    "@release-it/conventional-changelog": "^1.1.0",
+    "npm-check-updates": "^4.0.1",
+    "ractive": "^1.3.8",
+    "release-it": "^12.4.3",
+    "selector-observer": "^2.1.6",
+    "serve": "^11.3.0"
   },
   "dependencies": {},
   "scripts": {
-    "commit": "git-cz",
-    "rls": "standard-version",
+    "commit": "npm --no-git-tag-version version patch && git add npm-shrinkwrap.json && git add -p package.json && git-cz",
+    "rls": "release-it --ci --no-git.tag --no-github.release --no-npm.publish --no-gitlab.release",
     "dist": "rollup -c config/rollup/config.lib.js",
-    "pub_lib": "cd $INIT_CWD/dist/lib && npm publish"
+    "pub_lib": "npm run rls_lib && npm run dist && cd $INIT_CWD/dist && npm publish",
+    "build": "",
+    "deploy": "",
+    "release": "release-it patch --ci",
+    "ncu": "ncu",
+    "rls_lib": "release-it --ci --no-git.tag --no-github.release --no-npm.publish --no-gitlab.release patch"
   },
   "license": "MIT",
   "husky": {},
@@ -74,7 +86,48 @@
   "homepage": "https://github.com/kilisio/html_partials#readme",
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog",
+      "maxHeaderWidth": 200,
+      "maxLineWidth": 200
+    }
+  },
+  "release-it": {
+    "git": {
+      "requireCleanWorkingDir": false,
+      "requireUpstream": false,
+      "requireCommits": false,
+      "addUntrackedFiles": false,
+      "commit": true,
+      "commitMessage": "Release ${version}",
+      "commitArgs": "",
+      "tag": true,
+      "tagName": "${version}",
+      "tagAnnotation": "Release ${version}",
+      "tagArgs": "",
+      "push": false
+    },
+    "github": {
+      "release": true,
+      "releaseName": "Release ${version}",
+      "releaseNotes": null,
+      "tokenRef": "GITHUB_TOKEN_RELEASE_IT",
+      "assets": "dist/"
+    },
+    "npm": {
+      "publish": false
+    },
+    "gitlab": {
+      "release": false,
+      "releaseName": "Release ${version}",
+      "releaseNotes": null,
+      "tokenRef": "GITLAB_TOKEN_RELEASE_IT",
+      "assets": "dist/"
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular",
+        "infile": "CHANGELOG.md"
+      }
     }
   }
 }
