@@ -1,3 +1,15 @@
+## [0.8.9](https://github.com/kilisio/html_partials/compare/v0.7.1...v0.8.9) (2020-02-10)
+
+
+### Bug Fixes
+
+* ***.js:** added option to include single state attributes to elements ([d233914](https://github.com/kilisio/html_partials/commit/d2339145c2e83df5ed1d31e6b7200e63a57e6b37))
+
+
+### Features
+
+* **func_select.js:** added select html partial ([5afbe12](https://github.com/kilisio/html_partials/commit/5afbe12e0b5f4298b05109ac872eea45f5fdb45b))
+
 ## [0.8.8](https://github.com/kilisio/html_partials/compare/v0.7.1...v0.8.8) (2020-02-10)
 
 
