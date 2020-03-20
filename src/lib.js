@@ -7,3 +7,4 @@ export { span } from "./span_func.js";
 export { div } from "./div_func.js";
 export { link } from "./func_link.js";
 export { select, option } from "./func_select.js";
+export { video } from "./func_video.js";
