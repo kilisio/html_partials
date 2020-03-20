@@ -1,3 +1,16 @@
+## [0.9.1](https://github.com/kilisio/html_partials/compare/v0.7.1...v0.9.1) (2020-03-20)
+
+
+### Bug Fixes
+
+* ***.js:** added option to include single state attributes to elements ([d233914](https://github.com/kilisio/html_partials/commit/d2339145c2e83df5ed1d31e6b7200e63a57e6b37))
+
+
+### Features
+
+* **func_select.js:** added select html partial ([5afbe12](https://github.com/kilisio/html_partials/commit/5afbe12e0b5f4298b05109ac872eea45f5fdb45b))
+* **func_video.js, lib.js:** added and exported video partial ([06f5950](https://github.com/kilisio/html_partials/commit/06f5950547adb7c5a562c3fb85470016b56f39e2))
+
 # [0.9.0](https://github.com/kilisio/html_partials/compare/v0.7.1...v0.9.0) (2020-03-20)
 
 
